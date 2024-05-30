@@ -74,15 +74,17 @@
 		}
 
 		h2{
-			font-size: 1.9rem;
+			font-size: 2rem;
+			padding-bottom: 3rem;
 		}
 
 		h3{
-			font-size: 1.7rem;
+			font-size: 1.8rem;
 		}
 
 		h4{
-			font-size: 1.6rem;
+			font-size: 1.7rem;
+
 		}
 
 
@@ -217,20 +219,50 @@
 			text-decoration: none; /* coloca uma linha em baixo do link */
 			font-weight: bold; 
 			padding: 5px;
-			background-color: #7FFF00	;
-			/* border-color: #6A5ACD; /* altera a cor da borda */
+			background-color: rgb(255,165,0);/* border-color: #6A5ACD; /* altera a cor da borda */
+			padding-left: 60px; 
+			padding-right: 60px ;
 			color: #000000;
 			padding: 10px;
-			border: solid #6495ED;
-			border-radius: 20px;
+			/* border: solid #6495ED; */ 
+			border-radius: 5px;
+			box-shadow: 1px 1px 25px rgba(255,140,0,2);/* sobra para a caixa */
+
 		}
 
 		a:hover{ /* para fazer alteraçães nos links */
-			color: #000080; /* altera a cor da escrita */
-			border: solid; 
+			/* color: #000080; /* altera a cor da escrita */
+			/* border: solid; */
+			background-color: rgb(255,144,0);
 		}
 		
 		.wpp-logo{
 			width: 1%;
 			height:1%;
+		}
+
+		.sobre{
+			width: 50%;
+			text-align: center;
+			border-radius: 15px 15px 15px 15px;
+			border: solid rgba(245, 245, 245, 1);
+			margin: 0 auto; /* teoricamente centraliza a DIV */ 
+			padding-top: 30px; 
+			padding: 3rem;
+			background: linear-gradient(to bottom, #fff, #DCDCDC)
+		}
+
+		.professor{
+			text-align: center;
+			color: #fff;
+			background-color: #0000CD;
+			padding: 2rem;
+			border-radius: 10px 10px 10px 10px;
+		}
+
+		#preço{
+			font-size: 2.5rem;
+			color: rgb(0,128,0);
+			font: bold;
+			text-shadow: 1px 1px 1px #000; /* serve para da um sombra para o elemento */
 		}
